@@ -1,3 +1,114 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+/*
+*
+*
+*
+*/
+
+section{
+	min-height: 100vh;
+}
+/*
+*
+*
+*
+*/
+
+section#bio {
+	background-color: #0d3603
+	position: relative;
+}
+
+section#bio a{
+	color: lightgrey;
+}
+
+section#bio > div#details > img{
+	border-radius: 50%;
+	width: 200px;
+	border: 3px solid white;
+	padding: 2px;
+}
+
+
+div#details {
+	border: 1px solid white;
+	width: 50%;
+	text-align: center;
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(50%, 50%);
+}
+
+section#bio > div#details > h1,
+section#bio > div#details > ul {
+	font-family: 'Nanum Pen Script', cursive;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+section#bio > div#details > h1 {
+	font-size: 30px;
+}
+
+section#bio > div#details > ul{
+	list-style: none;
+	font-size: 15px;
+}
+
+section#projects	{
+	background-color: #748c06;
+}
+section#skillset	{
+	background-color: #d18000;
+
+}
+section#contact	{
+	background-color: #8c6306;
+	position: relative;
+}
+
+section#projects > h2,
+section#skillset > h2,
+section#contact > h2{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 body {
+	font-family: 'Open Sans', sans-serif;
 	/*background-color: red;*/
 }
+
+/*
+*
+*
+*
+*/
+
+footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: #633204;
+	color: lightgrey;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer a{
+	color: lightgrey;
+}
+
+
